@@ -29,16 +29,17 @@ public class PBO6K10116599Latihan17ProgramTunjangan {
         String status;
         
         System.out.println("=======Program Tunjangan=======");
+        
+        // Input gaji pokok
         System.out.print("Berapa gaji pokok anda perbulan?: Rp. ");
         Scanner scan = new Scanner(System.in);        
         gajiPokok = scan.nextDouble();
         
-        
+        // Input status
         System.out.print("Status Anda? (Menikah/Belum)\t: ");
         status = scan.next();
-        
-        //tunjangan=0.35*gajiPokok;
-        //totalGaji=gajiPokok+tunjangan;    
+            
+        // Output
         System.out.println();
         System.out.println("=======Hasil Perhitungan Gaji Anda=======");
         System.out.println("Gaji Pokok\t\t: Rp " +gajiPokok);
