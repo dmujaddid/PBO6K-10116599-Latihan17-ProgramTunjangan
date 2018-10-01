@@ -13,7 +13,7 @@ import java.util.Scanner;
  * NAMA     : Robby Eka Purnama
  * KELAS    : PBO6K
  * NIM      : 10116599
- * Deskripsi Program : Program untuk menghitung tunjangan.
+ * Deskripsi Program : Program untuk menghitung tunjangan dan total gaji.
  * 
  */
 public class PBO6K10116599Latihan17ProgramTunjangan {
@@ -51,6 +51,8 @@ public class PBO6K10116599Latihan17ProgramTunjangan {
             else    {
             System.out.println("Tunjangan\t\t: Rp " + 0);
             System.out.println("Total Gaji\t\t: Rp " +gajiPokok);
+            System.out.println();
+            System.out.println("Developed by: Robby Eka");
         }
         
     }
